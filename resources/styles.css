@@ -1,8 +1,13 @@
 /* Universal */
 body {
+    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
+}
+
+h1 , h2{
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Header */
@@ -10,12 +15,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    border: 1px solid red;
+    padding: 0.5rem 2.5rem;
+    /* border: 1px solid red; */
 }
 
-#logo {
-    font-size: 1.25rem;
+#logo a {
+    font-weight: bold;
 }
 
 nav ol {
@@ -28,8 +33,57 @@ nav ol li {
     font-size: 1.5rem;
 }
 
-/* Banner */
+header a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    transition: 0.5s;
+}
 
+header a:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+/* Banner */
+#intro {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10rem 0;
+    font-size: 1.5rem;
+    background-color: #889987;
+    color: white;
+}
+
+#intro h2 {
+    font-size: 3.5rem;
+}
+
+#intro p {
+    font-weight: 400;
+    margin-top: -2rem;
+}
+
+.socials {
+    /* border: 1px solid red; */
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    margin: 0 1rem;
+    transition: 0.25s;
+}
+
+.profile:hover {
+    background-color: #3f7bbf;
+    transition: 0.25s;
+}
 
 /* Projects */
 
