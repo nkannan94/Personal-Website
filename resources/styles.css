@@ -14,7 +14,7 @@ h1 , h2{
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 0.5rem 2.5rem;
     /* border: 1px solid red; */
 }
@@ -30,7 +30,7 @@ nav ol {
 
 nav ol li {
     margin-left: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 header a {
@@ -86,6 +86,32 @@ header a:hover {
 }
 
 /* Projects */
+#work {
+    padding: 2rem 0;
+    margin-bottom: 10rem;
+}
 
+.title h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.projects {
+    margin: auto 5rem;
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+.container {
+    border: 1px solid red;
+    margin: 1rem 2rem;
+    flex-basis: 30%;
+    min-height: 15rem;
+    min-width: 15rem;
+    max-width: 15rem;
+}
 
 /* Footer */
