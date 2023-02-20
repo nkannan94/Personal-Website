@@ -1,0 +1,37 @@
+/* Universal */
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid red;
+}
+
+#logo {
+    font-size: 1.25rem;
+}
+
+nav ol {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ol li {
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+/* Banner */
+
+
+/* Projects */
+
+
+/* Footer */
