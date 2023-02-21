@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/styles.css">
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Quicksand:wght@300;400;500;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/886e2b9f76.js" crossorigin="anonymous"></script>
-    
+    <!-- title -->
     <title>Nadison's Portfolio</title>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -48,62 +50,64 @@
             <h2>Projects</h2>
         </div>
         <!-- Each section will be hidden and can be revealed via click using JS -->
-        <div class="project">
-            <div class="project-name">
-                <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
-                <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
-                <h3 class="project-title">Mixed Messages (JavaScript)</h3>
+        <div class="projects-container">
+            <div class="project">
+                <div class="project-name">
+                    <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
+                    <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
+                    <h3 class="project-title">Mixed Messages (JavaScript)</h3>
+                </div>
+                
+                <div class="description-container">
+                    <p class="description">
+                    Mixed messages is a program that will generate a new random message 
+                    each time it is ran. This program will generate a random 'Shout' from the game Skyrim.
+                    </p>
+                    <a href="https://github.com/nkannan94/Mixed-Messages" target="_blank">View codebase on GitHub</a>
+                </div>
             </div>
-            
-            <div class="description-container">
-                <p class="description">
-                Mixed messages is a program that will generate a new random message 
-                each time it is ran. This program will generate a random 'Shout' from the game Skyrim.
-                </p>
-                <a href="https://github.com/nkannan94/Mixed-Messages" target="_blank">View codebase on GitHub</a>
+            <div class="project">
+                <div class="project-name">
+                    <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
+                    <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
+                    <h3 class="project-title">Organsim Mutation (JavaScript)</h3>
+                </div>
+                
+                <div class="description-container">
+                    <p class="description">
+                        <strong>Task:</strong> Create objects using JavaScript that simulate the DNA of P. aequor.
+                        <br>
+                        <br>
+                        <strong>Context:</strong> There exists a (hypothetical) novel marine organism, Pila aequor (P. aequor), which has been
+                        found at the bottom of the ocean near hydrothermal vents. P. aequor cannot survive at surface 
+                        conditions and it has a small DNA sample (15 DNA bases) that rapidly mutate. For these reasons,
+                        P. aequor is difficult and expensive to study,
+                    </p>
+                    <a href="" target="_blank">View codebase on GitHub</a>
+                </div>
             </div>
-        </div>
-        <div class="project">
-            <div class="project-name">
-                <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
-                <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
-                <h3 class="project-title">Organsim Mutation (JavaScript)</h3>
-            </div>
-            
-            <div class="description-container">
-                <p class="description">
-                    Task: Create objects using JavaScript that simulate the DNA of P. aequor.
-                    <br>
-                    <br>
-                    Context: There exists a (hypothetical) novel marine organism, Pila aequor (P. aequor), which has been
-                    found at the bottom of the ocean near hydrothermal vents. P. aequor cannot survive at surface 
-                    conditions and it has a small DNA sample (15 DNA bases) that rapidly mutate. For these reasons,
-                    P. aequor is difficult and expensive to study,
-                </p>
-                <a href="" target="_blank">View codebase on GitHub</a>
-            </div>
-        </div>
-        <div class="project">
-            <div class="project-name">
-                <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
-                <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
-                <h3 class="project-title">Credit Card Checker (JavaScript)</h3>
-            </div>
+            <div class="project">
+                <div class="project-name">
+                    <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
+                    <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
+                    <h3 class="project-title">Credit Card Checker (JavaScript)</h3>
+                </div>
 
 
-            <div class="description-container">
-                <p class="description">
-                    Task: check credit card validity using JavaScript. 
-                    <br>
-                    <br>
-                    Context: Credit card distributors have been mailing out cards that have invalid numbers. 
-                    Optimizing the verification process can be done with the use of Lunh's Algorithm 
-                    which will check the validity of any card number. </p>
-                <a href="" target="_blank">View codebase on GitHub</a>
+                <div class="description-container">
+                    <p class="description">
+                        <strong>Task:</strong> check credit card validity using JavaScript. 
+                        <br>
+                        <br>
+                        <strong>Context:</strong> Credit card distributors have been mailing out cards that have invalid numbers. 
+                        Optimizing the verification process can be done with the use of Lunh's Algorithm 
+                        which will check the validity of any card number. </p>
+                    <a href="" target="_blank">View codebase on GitHub</a>
+                </div>
             </div>
         </div>
 
-        <!-- IDEA 1        
+        <!-- Template for UX showcase once migrated     
         <div class="projects">
             <div class="container">
                 <a href=""><img src="" alt=""></a>
@@ -123,17 +127,25 @@
 
     <!-- About -->
     <section id="about">
-        <div class="title">
+        <!-- <div class="title">
             <h2>About</h2>
-        </div>
+        </div> -->
         <div class="about-countainer">
             <div id="portrait">
                 <img src="./resources/images/headshot_longtie_edit1 (1) 2.jpg" alt="Picture of Nadison">
             </div> 
             <div class="details-container">
-                <h3>My name is Nadison</h3>
-                <p><br>  and I'm a life long overthinker who turned that wonderful trait into a Philosophy degree. Currently, I am pursuing a Full Stack Engineering certification after discovering an interest in computers and coding while completing my UX Design certification. I enjoy connecting with people, so I want to help others do the same through the various services or apps that they might use. Great things happen when we can connect and collaborate; timeless symphonies, interstellar travel, and trimming my cat's claws- just to name a few. I'm eager to apply my skills to help bring harmony between people and the things that they use which, I believe, can promote higher degrees of personal autonomy in their lives. 
-    
+                <h3>Nice to meet you!</h3>
+                <p><br>I'm a life long overthinker who turned that <i>wonderful</i> trait into a 
+                    Philosophy degree. Currently, I am pursuing a Full Stack Engineering certification 
+                    after discovering an interest in coding while completing my UX Design 
+                    certification. I enjoy connecting with people, so I want to help others 
+                    do the same through the digital services that they might use. Great 
+                    things happen when we can connect and collaborate; timeless symphonies, 
+                    interstellar travel, and trimming my cat's claws- just to name a few. I'm eager 
+                    to apply my skills to help bring harmony between people and the things that they 
+                    use!
+                    <br><br>
                     In my free time I enjoy making music, playing video games, day dreaming, and (occasionally) going outside. </p>
             </div>
             
@@ -144,9 +156,7 @@
     <footer>
         <p>Copyright © Nadison Kannan</p>
     </footer>
-
-    <script src="./resources/script.js"></script>
 </body>
 
-
+<script src="./resources/script.js"></script>
 </html>

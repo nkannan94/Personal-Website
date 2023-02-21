@@ -103,7 +103,20 @@ header a:hover {
 #work {
     padding: 2rem 0;
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-container {
+    max-width: 60rem;
     /* border: 1px solid red; */
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title .project-title {
@@ -134,8 +147,11 @@ header a:hover {
 }
 
 .description-container {
-    margin: 0 2rem 4rem 2rem;
+    margin: 0 2rem;
     display: none;
+    max-width: 40rem;
+    text-align: center;
+    /* border: 1px solid red; */
 }
 
 /* IDEA 1 */
@@ -192,8 +208,8 @@ header a:hover {
 }
 
 .details-container {
-    max-width: 50%;
     /* border: 1px solid red; */
+    max-width: 50%;
     line-height: 1.5rem;
 }
 
