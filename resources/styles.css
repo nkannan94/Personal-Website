@@ -89,7 +89,7 @@ header a:hover {
 #work {
     padding: 2rem 0;
     margin: 2rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .title h2 {
@@ -123,5 +123,55 @@ header a:hover {
     min-width: 15rem;
     max-width: 15rem;
 } */
+
+/* About */
+#about {
+    padding: 2rem 0;
+    background-color: #889987;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+#about .title h2 {
+    /* text-align: center; */
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.about-countainer {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    margin: 0 2rem;
+    /* flex-flow: row-reverse wrap; */
+}
+
+.details-container h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.details-container p {
+    margin-top: 0;
+}
+
+.details-container {
+    max-width: 50%;
+    /* border: 1px solid red; */
+    line-height: 1.5rem;
+}
+
+#portrait {
+
+}
+
+#portrait img {
+    /* border: 1px solid red; */
+    height: 35rem;
+    width: auto;
+    overflow: hidden;
+    margin: 0 2rem;
+}
 
 /* Footer */
