@@ -175,3 +175,8 @@ header a:hover {
 }
 
 /* Footer */
+
+
+footer p {
+    margin: 2rem 0 2rem 1.5rem;
+}
