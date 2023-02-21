@@ -6,7 +6,11 @@ body {
     padding: 0;
 }
 
-h1 , h2{
+h1 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -21,6 +25,8 @@ header {
 
 #logo a {
     font-weight: bold;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.75rem;
 }
 
 nav ol {
@@ -41,7 +47,7 @@ header a {
 }
 
 header a:hover {
-    color: gray;
+    color: #3f7bbf;
     transition: 0.5s;
 }
 
@@ -71,6 +77,11 @@ header a:hover {
     justify-content: center;
 }
 
+.socials a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .profile {
     width: 3rem;
     height: 3rem;
@@ -78,6 +89,9 @@ header a:hover {
     border-radius: 100%;
     margin: 0 1rem;
     transition: 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile:hover {
@@ -154,16 +168,14 @@ header a:hover {
 
 .details-container p {
     margin-top: 0;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 
 .details-container {
     max-width: 50%;
     /* border: 1px solid red; */
     line-height: 1.5rem;
-}
-
-#portrait {
-
 }
 
 #portrait img {
