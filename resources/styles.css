@@ -88,15 +88,25 @@ header a:hover {
 /* Projects */
 #work {
     padding: 2rem 0;
-    margin-bottom: 10rem;
+    margin: 2rem;
+    border: 1px solid red;
 }
 
 .title h2 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 2rem;
 }
 
-.projects {
+.project {
+    margin-bottom: 2rem;
+}
+
+.description-container {
+    margin: 0 2rem 4rem 2rem;
+}
+
+/* IDEA 1 */
+/* .projects {
     margin: auto 5rem;
     border: 1px solid red;
     display: flex;
@@ -112,6 +122,6 @@ header a:hover {
     min-height: 15rem;
     min-width: 15rem;
     max-width: 15rem;
-}
+} */
 
 /* Footer */
