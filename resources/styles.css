@@ -8,6 +8,7 @@ body {
 
 h1 {
     font-family: 'Philosopher', sans-serif;
+    font-size: 1.75rem;
 }
 
 h2, h3, h4, h5, h6 {
@@ -26,7 +27,6 @@ header {
 #logo a {
     font-weight: bold;
     font-family: 'Philosopher', sans-serif;
-    font-size: 1.75rem;
 }
 
 nav ol {
@@ -187,8 +187,27 @@ header a:hover {
 }
 
 /* Footer */
-
-
 footer p {
     margin: 2rem 0 2rem 1.5rem;
+}
+
+/* Contact */
+#contact {
+    background-color: #889987;
+    padding: 2rem;
+    color: #FFF;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 3rem;
+}
+
+#contact h2 {
+    font-weight: 200;
+}
+
+#contact .socials {
+    margin: 2rem 0;
+    padding-top: 1rem;
 }
