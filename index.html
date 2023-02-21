@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Quicksand:wght@300;400;500;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/886e2b9f76.js" crossorigin="anonymous"></script>
+    
     <title>Nadison's Portfolio</title>
 </head>
 <body>
     <!-- Header -->
     <header>
         <div id="logo">
-            <h2><a href="./index.html">Nadison Kannan</a></h2>
+            <h2><a href="./index.html" class="my-logo">Nadison Kannan</a></h2>
         </div>
         <nav>
             <ol>
@@ -48,17 +49,27 @@
         </div>
         <!-- Each section will be hidden and can be revealed via click using JS -->
         <div class="project">
-            <h2>Mixed Messages (JavaScript)</h2>
+            <div class="project-name">
+                <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
+                <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
+                <h3 class="project-title">Mixed Messages (JavaScript)</h3>
+            </div>
+            
             <div class="description-container">
                 <p class="description">
                 Mixed messages is a program that will generate a new random message 
                 each time it is ran. This program will generate a random 'Shout' from the game Skyrim.
                 </p>
-                <a href="">View codebase on GitHub</a>
+                <a href="https://github.com/nkannan94/Mixed-Messages" target="_blank">View codebase on GitHub</a>
             </div>
         </div>
         <div class="project">
-            <h2>Organsim Mutation (JavaScript)</h2>
+            <div class="project-name">
+                <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
+                <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
+                <h3 class="project-title">Organsim Mutation (JavaScript)</h3>
+            </div>
+            
             <div class="description-container">
                 <p class="description">
                     Task: Create objects using JavaScript that simulate the DNA of P. aequor.
@@ -69,11 +80,17 @@
                     conditions and it has a small DNA sample (15 DNA bases) that rapidly mutate. For these reasons,
                     P. aequor is difficult and expensive to study,
                 </p>
-                <a href="">View codebase on GitHub</a>
+                <a href="" target="_blank">View codebase on GitHub</a>
             </div>
         </div>
         <div class="project">
-            <h2>Credit Card Checker (JavaScript)</h2>
+            <div class="project-name">
+                <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div>
+                <div class="arrow-down"><i class="fa-solid fa-chevron-down"></i></div>
+                <h3 class="project-title">Credit Card Checker (JavaScript)</h3>
+            </div>
+
+
             <div class="description-container">
                 <p class="description">
                     Task: check credit card validity using JavaScript. 
@@ -82,7 +99,7 @@
                     Context: Credit card distributors have been mailing out cards that have invalid numbers. 
                     Optimizing the verification process can be done with the use of Lunh's Algorithm 
                     which will check the validity of any card number. </p>
-                <a href="">View codebase on GitHub</a>
+                <a href="" target="_blank">View codebase on GitHub</a>
             </div>
         </div>
 
@@ -126,8 +143,10 @@
     <!-- Footer -->
     <footer>
         <p>Copyright © Nadison Kannan</p>
-        
     </footer>
 
+    <script src="./resources/script.js"></script>
 </body>
+
+
 </html>

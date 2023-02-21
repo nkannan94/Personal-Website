@@ -67,7 +67,7 @@ header a:hover {
 
 #intro p {
     font-weight: 400;
-    margin-top: -2rem;
+    margin: -2rem 2rem 0 2rem;
 }
 
 .socials {
@@ -106,9 +106,27 @@ header a:hover {
     /* border: 1px solid red; */
 }
 
-.title h2 {
+.title .project-title {
     /* text-align: center; */
     font-size: 2rem;
+}
+
+.project-name {
+    display: flex;
+    align-items: center;
+}
+
+.project-title {
+    margin-left: 1rem;
+}
+
+.arrow-up {
+    cursor: pointer;
+}
+
+.arrow-down {
+    cursor: pointer;
+    display: none;
 }
 
 .project {
@@ -117,6 +135,7 @@ header a:hover {
 
 .description-container {
     margin: 0 2rem 4rem 2rem;
+    display: none;
 }
 
 /* IDEA 1 */
