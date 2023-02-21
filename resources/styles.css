@@ -178,6 +178,8 @@ header a:hover {
     padding: 2rem 0;
     background-color: #889987;
     color: white;
+    display: flex;
+    justify-content: center;
     /* border: 1px solid red; */
 }
 
@@ -189,10 +191,18 @@ header a:hover {
 
 .about-countainer {
     display: flex;
-    flex-flow: row-reverse wrap;
+    flex-flow: row wrap;
     justify-content: center;
-    margin: 0 2rem;
-    /* flex-flow: row-reverse wrap; */
+    align-items: center;
+    margin: 3rem 2rem;
+    /* border: 1px solid red; */
+    max-width: 75%;
+}
+
+.details-container {
+    /* border: 1px solid red; */
+    max-width: 30rem;
+    line-height: 1.5rem;
 }
 
 .details-container h3 {
@@ -207,18 +217,13 @@ header a:hover {
     line-height: 1.75rem;
 }
 
-.details-container {
-    /* border: 1px solid red; */
-    max-width: 50%;
-    line-height: 1.5rem;
-}
-
 #portrait img {
     /* border: 1px solid red; */
     height: 35rem;
     width: auto;
     overflow: hidden;
     margin: 0 2rem;
+    border-radius: 5rem 0 0 5rem;
 }
 
 /* Footer */
